@@ -1,3 +1,4 @@
+package java;
 import java.util.*;
 public class Star2 {
     public static void inverted(int n)
