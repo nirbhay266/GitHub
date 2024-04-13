@@ -25,6 +25,14 @@ public class functionOverloading {
     {
         return a-b-c;
     }
+    public static int mult(int a,int b)
+    {
+        return a*b;
+    }
+    public static int mult(int a,int b,int c)
+    {
+        return a*b*c;
+    }
 
     public static void main(String[] args) {
          Scanner sc = new Scanner(System.in);
@@ -41,8 +49,10 @@ public class functionOverloading {
     //     sum(a, b, c, d);
     //   float n= sum(20.5f,500.4f);
     //   System.out.println("Your Float Number"+n);
-        System.out.println("Your two number of  Subtraction is "+sub(a, b));
-        System.out.println("Your three number of Subtraction is "+sub(a,b,c));
+        // System.out.println("Your two number of  Subtraction is "+sub(a, b));
+        // System.out.println("Your three number of Subtraction is "+sub(a,b,c));
+        System.out.println("Your two number of multiplication  is "+mult(a, b));
+        System.out.println("Your three number of multiplication is "+mult(a,b,c));
         
     }
 }
