@@ -1,5 +1,5 @@
 import java.util.*;
-import java.util.Scanner;
+
 
 public class PositiveN {
     public static void main(String[] args) {
@@ -14,6 +14,7 @@ public class PositiveN {
         {
             System.out.println("Not a Positive Number This is a Negative Number "+n);
         }
+        ob.close();
     }
 
 }

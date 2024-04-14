@@ -13,5 +13,6 @@ public class evenOdd {
             System.out.println("Odd Number "+n);
 
         }
+        scanner.close();
     }
 }

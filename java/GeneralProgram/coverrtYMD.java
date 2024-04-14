@@ -8,6 +8,6 @@ public class coverrtYMD {
         int m=n%356/30;
         int d=n/356/30;
         System.out.println("Year "+y+" "+m+" "+d);
-
+        ob.close();
     }
 }

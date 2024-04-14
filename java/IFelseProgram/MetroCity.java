@@ -23,5 +23,6 @@ public class MetroCity {
             System.out.println("Metro City Name "+m);
             System.out.println("Hot Day");
         }
+        scanner.close();
     }
 }

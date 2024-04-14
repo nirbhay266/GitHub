@@ -13,5 +13,6 @@ public class itemDiscount {
         int f = (int) (t - (t * 0.1)); // Corrected the discount calculation
         System.out.println("Item Name: " + item);
         System.out.println("Item Final Price: " + f); // Display the discounted price
+        ob.close();
     }
 }

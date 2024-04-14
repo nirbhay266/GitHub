@@ -13,6 +13,6 @@ public class p9Digit {
            
         }
         System.out.println(c);
-        
+        ob.close();
     }
 }

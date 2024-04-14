@@ -14,6 +14,6 @@ public class product {
        int  b=ob.nextInt();
       int  pro=getProduct(a, b);
         System.out.println(pro);
-        
+        ob.close(); 
     }
 }

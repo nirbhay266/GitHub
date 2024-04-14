@@ -8,5 +8,6 @@ public class p8Table {
         {
             System.out.println(n+" x "+i+" = "+(n*i));
         }
+        ob.close();
     }
 }

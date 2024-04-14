@@ -53,6 +53,6 @@ public class functionOverloading {
         // System.out.println("Your three number of Subtraction is "+sub(a,b,c));
         System.out.println("Your two number of multiplication  is "+mult(a, b));
         System.out.println("Your three number of multiplication is "+mult(a,b,c));
-        
+        sc.close();
     }
 }

@@ -1,6 +1,6 @@
 import java.util.*;
 
-import javax.swing.plaf.synth.SynthStyle;
+
 public class FindTreeLargest {
     public static void main(String[] args) {
         Scanner ob=new Scanner(System.in);
@@ -30,7 +30,7 @@ public class FindTreeLargest {
         {
             System.out.println("All Are Same Number");
         }
-        
+        ob.close();
         
     }
 }

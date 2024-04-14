@@ -17,6 +17,6 @@ public class grade {
         a=t/3;
         System.out.println("Student name "+name+" Total Average marks "+a);
        
-
+        ob.close();
     }
 }

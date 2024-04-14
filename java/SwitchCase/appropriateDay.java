@@ -6,7 +6,7 @@ public class appropriateDay {
         int n= sc.nextInt();
         switch (n) {
             case 1:
-            System.out.println("Sunday"):               
+            System.out.println("Sunday");            
             break;
             case 2:
             System.out.println("Monday");
@@ -32,6 +32,6 @@ public class appropriateDay {
             System.out.println("Invalid date");
                 break;
         }
-
+sc.close();
     }
 }

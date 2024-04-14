@@ -10,5 +10,6 @@ public class p2 {
             {
                 System.out.println(i);
             }
+            ob.close();
     }
 }

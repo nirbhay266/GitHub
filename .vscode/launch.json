@@ -2,6 +2,34 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "p15MidPocNo",
+      "request": "launch",
+      "mainClass": "p15MidPocNo",
+      "projectName": "GitHub_209c179c"
+    },
+    {
+      "type": "java",
+      "name": "p11Palindrom",
+      "request": "launch",
+      "mainClass": "p11Palindrom",
+      "projectName": "GitHub_209c179c"
+    },
+    {
+      "type": "java",
+      "name": "Attach",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": "<debug port of the debuggee>"
+    },
+    {
+      "type": "java",
+      "name": "p16",
+      "request": "launch",
+      "mainClass": "p16",
+      "projectName": "GitHub_209c179c"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",

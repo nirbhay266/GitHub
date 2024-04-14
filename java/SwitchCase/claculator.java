@@ -30,6 +30,6 @@ public class claculator {
             System.out.println("Invalide Airthmetic Operators");
                 break;
         }
-
+ob.close();
     }
 }

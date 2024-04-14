@@ -1,10 +1,10 @@
 import java.util.*;
 public class p10Reverse {
     public static void main(String[] args) {
-        Scanner ob=new Scanner(System.in);
+        Scanner ob =new Scanner(System.in);
         System.out.println("Enter the number");
         int n=ob.nextInt();
-        int r=0;
+   
         for(;n!=0;)
         {
             System.out.print(n%10);
@@ -12,6 +12,8 @@ public class p10Reverse {
             // r=r*10+b;
             n=n/10;
         }
+        ob.close();
         //System.out.println(r);
+        
     }
 }

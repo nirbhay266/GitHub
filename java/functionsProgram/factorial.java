@@ -15,6 +15,9 @@ public class factorial {
         System.out.println("Enter a number");
         int n=ob.nextInt();
         //int n = fact(5);
+     
         System.out.println(fact(n));
+        ob.close();
     }
+    
 }

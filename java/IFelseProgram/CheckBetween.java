@@ -14,6 +14,7 @@ public class CheckBetween {
             System.out.println("Number is in not Betweeb 10 to 20");
 
         }
+        obScanner.close();
     }
 
 }

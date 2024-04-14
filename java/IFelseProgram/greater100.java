@@ -12,5 +12,6 @@ public class greater100 {
         {
             System.out.println("Inputted Number is Less than 100");
         }
+        scanner.close();
     }
 }
