@@ -1,6 +1,6 @@
 /*/*Write a program enter  any number then print 
 Middle Pocket of that Number, if Number is eventhen then print Invalid Number 
-Hint: n42858 md=8*/
+Hint: 42858 md=8*/
 import java.util.*;
 public class p16
 {
