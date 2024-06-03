@@ -1,4 +1,4 @@
-
+package java;
 
 public class hollo {
     public static void rhombus(int n)
